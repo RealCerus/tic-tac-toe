@@ -112,7 +112,7 @@ void request_move() {
     index--;
 
     if(grid[index] != ' ') {
-        cout << "There is already someone! Try again!" << endl;
+        cout << "This position is already in use! Try again!" << endl;
         request_move();
         return;
     }
