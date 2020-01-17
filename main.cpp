@@ -100,7 +100,7 @@ bool eval_grid() {
 }
 
 void request_move() {
-    cout << "Its your move! Enter a number between 1 and 9!" << endl;
+    cout << "Its your turn! Enter a number between 1 and 9!" << endl;
 
     int index;
     cin >> index;
